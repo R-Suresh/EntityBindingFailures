@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, code, or data, please cite the accompanying paper."
+title: "Entity Binding Failures in Tool-Augmented Agents"
+authors:
+  - family-names: "Babu"
+    given-names: "Rahul Suresh"
+  - family-names: "Indukuri"
+    given-names: "Shashank"
+year: 2026
+repository-code: "https://github.com/R-Suresh/EntityBindingFailures"
+license: "MIT"
+abstract: "Diagnostic benchmark and evaluation code for studying right-tool, wrong-entity failures in tool-augmented LLM agents."
+keywords:
+  - tool-augmented agents
+  - LLM agents
+  - entity binding
+  - entity resolution
+  - agent safety
+  - function calling
+  - ambiguity detection
+  - provenance tracking
