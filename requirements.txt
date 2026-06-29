@@ -1,0 +1,5 @@
+pandas
+tenacity
+tqdm
+boto3
+botocore
