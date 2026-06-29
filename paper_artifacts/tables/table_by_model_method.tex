@@ -1,0 +1,36 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+model & method & task_success & safe_success & wrong_tool & wrong_entity & ambiguity_detected & over_clarification & risk_weighted_wrong_entity \\
+\midrule
+us.amazon.nova-2-lite-v1:0 & cmtf_only & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.amazon.nova-2-lite-v1:0 & confidence_gate & 30.000000 & 38.300000 & 0.000000 & 0.000000 & 70.000000 & 0.000000 & 0.000000 \\
+us.amazon.nova-2-lite-v1:0 & direct & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.amazon.nova-2-lite-v1:0 & entity_cmtf_provenance & 30.000000 & 38.300000 & 0.000000 & 0.000000 & 70.000000 & 0.000000 & 0.000000 \\
+us.amazon.nova-2-lite-v1:0 & entity_retrieval & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.amazon.nova-2-lite-v1:0 & semantic_filter & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.amazon.nova-premier-v1:0 & cmtf_only & 58.300000 & 58.300000 & 0.000000 & 41.700000 & 0.000000 & 0.000000 & 1.750000 \\
+us.amazon.nova-premier-v1:0 & confidence_gate & 30.000000 & 38.300000 & 0.000000 & 0.000000 & 70.000000 & 0.000000 & 0.000000 \\
+us.amazon.nova-premier-v1:0 & direct & 56.700000 & 56.700000 & 0.000000 & 43.300000 & 0.000000 & 0.000000 & 1.817000 \\
+us.amazon.nova-premier-v1:0 & entity_cmtf_provenance & 30.000000 & 38.300000 & 0.000000 & 0.000000 & 70.000000 & 0.000000 & 0.000000 \\
+us.amazon.nova-premier-v1:0 & entity_retrieval & 56.700000 & 56.700000 & 0.000000 & 43.300000 & 0.000000 & 0.000000 & 1.817000 \\
+us.amazon.nova-premier-v1:0 & semantic_filter & 61.700000 & 61.700000 & 0.000000 & 38.300000 & 0.000000 & 0.000000 & 1.617000 \\
+us.anthropic.claude-opus-4-8 & cmtf_only & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.anthropic.claude-opus-4-8 & confidence_gate & 41.700000 & 50.000000 & 0.000000 & 0.000000 & 58.300000 & 0.000000 & 0.000000 \\
+us.anthropic.claude-opus-4-8 & direct & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.anthropic.claude-opus-4-8 & entity_cmtf_provenance & 23.300000 & 31.700000 & 0.000000 & 0.000000 & 76.700000 & 0.000000 & 0.000000 \\
+us.anthropic.claude-opus-4-8 & entity_retrieval & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.anthropic.claude-opus-4-8 & semantic_filter & 78.300000 & 81.700000 & 0.000000 & 16.700000 & 5.000000 & 0.000000 & 0.717000 \\
+us.anthropic.claude-sonnet-4-6 & cmtf_only & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.anthropic.claude-sonnet-4-6 & confidence_gate & 35.000000 & 43.300000 & 0.000000 & 0.000000 & 65.000000 & 0.000000 & 0.000000 \\
+us.anthropic.claude-sonnet-4-6 & direct & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.anthropic.claude-sonnet-4-6 & entity_cmtf_provenance & 30.000000 & 38.300000 & 0.000000 & 0.000000 & 70.000000 & 0.000000 & 0.000000 \\
+us.anthropic.claude-sonnet-4-6 & entity_retrieval & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.anthropic.claude-sonnet-4-6 & semantic_filter & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.meta.llama3-3-70b-instruct-v1:0 & cmtf_only & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.meta.llama3-3-70b-instruct-v1:0 & confidence_gate & 21.700000 & 30.000000 & 0.000000 & 0.000000 & 78.300000 & 0.000000 & 0.000000 \\
+us.meta.llama3-3-70b-instruct-v1:0 & direct & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.meta.llama3-3-70b-instruct-v1:0 & entity_cmtf_provenance & 16.700000 & 25.000000 & 0.000000 & 0.000000 & 83.300000 & 0.000000 & 0.000000 \\
+us.meta.llama3-3-70b-instruct-v1:0 & entity_retrieval & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+us.meta.llama3-3-70b-instruct-v1:0 & semantic_filter & 78.300000 & 78.300000 & 0.000000 & 21.700000 & 0.000000 & 0.000000 & 0.950000 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,7 @@
+Method,Task Success (%),Safe Success (%),Wrong Tool (%),Wrong Entity (%),Ambiguity Detected (%),Over-Clarification (%),Risk-Weighted Wrong Entity
+cmtf_only,74.3,74.3,0.0,25.7,0.0,0.0,1.11
+confidence_gate,31.7,40.0,0.0,0.0,68.3,0.0,0.0
+direct,74.0,74.0,0.0,26.0,0.0,0.0,1.123
+entity_cmtf_provenance,26.0,34.3,0.0,0.0,74.0,0.0,0.0
+entity_retrieval,74.0,74.0,0.0,26.0,0.0,0.0,1.123
+semantic_filter,75.0,75.7,0.0,24.0,1.0,0.0,1.037
