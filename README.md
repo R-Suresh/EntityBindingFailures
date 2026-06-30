@@ -9,7 +9,8 @@ This repository accompanies the paper:
 > **Entity Binding Failures in Tool-Augmented Agents**  
 > Rahul Suresh Babu and Shashank Indukuri
 
-ArXiv link: **coming soon**.
+ArXiv: [2606.30531](https://arxiv.org/abs/2606.30531)  
+DOI: [10.48550/arXiv.2606.30531](https://doi.org/10.48550/arXiv.2606.30531)
 
 ## What is included
 
@@ -106,7 +107,20 @@ Over-clarification rows: 0
 
 ## Citation
 
-Please cite the paper if you use this benchmark or code. A `CITATION.cff` file is included and will be updated with the arXiv identifier once available.
+Please cite the paper if you use this benchmark, code, or data:
+
+```bibtex
+@misc{babu2026entitybindingfailures,
+  title         = {Entity Binding Failures in Tool-Augmented Agents},
+  author        = {Babu, Rahul Suresh and Indukuri, Shashank},
+  year          = {2026},
+  eprint        = {2606.30531},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  doi           = {10.48550/arXiv.2606.30531},
+  url           = {https://arxiv.org/abs/2606.30531}
+}
+```
 
 ## License
 
