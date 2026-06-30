@@ -7,9 +7,16 @@ authors:
   - family-names: "Indukuri"
     given-names: "Shashank"
 year: 2026
+doi: "10.48550/arXiv.2606.30531"
+url: "https://arxiv.org/abs/2606.30531"
 repository-code: "https://github.com/R-Suresh/EntityBindingFailures"
 license: "MIT"
 abstract: "Diagnostic benchmark and evaluation code for studying right-tool, wrong-entity failures in tool-augmented LLM agents."
+identifiers:
+  - type: doi
+    value: "10.48550/arXiv.2606.30531"
+  - type: url
+    value: "https://arxiv.org/abs/2606.30531"
 keywords:
   - tool-augmented agents
   - LLM agents
